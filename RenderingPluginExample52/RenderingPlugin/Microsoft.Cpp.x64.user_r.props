@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <LibraryPath>E:\opencv2411\opencv\mybuild_VC11_64\install\x64\vc11\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>E:\opencv2411\opencv\mybuild_VC11_64\install\x64\vc11\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>E:\opencv2411\opencv\mybuild_VC11_64\install\include;E:\opencv2411\opencv\mybuild_VC11_64\install\include\opencv;E:\opencv2411\opencv\mybuild_VC11_64\install\include\opencv2;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\opencv2411\opencv\mybuild_VC11_64\install\include;..\PTAM\PTAM;..\PTAM\3rdparty.old;..\PTAM\3rdparty.old\headers;..\PTAM\3rdparty.old\glew-1.12.0\include;..\PTAM\3rdparty.old\libcvd;..\PTAM\3rdparty.old\libcvd\Pre-built.2\include;..\PTAM\3rdparty.old\gvars3;..\PTAM\3rdparty.old\freeglut\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>E:\opencv2411\opencv\mybuild_VC11_64\install\x64\vc11\lib;..\PTAM\3rdparty.old\LAPACK_Release_x64;..\PTAM\3rdparty.old\glew-1.12.0\lib\Release\x64;..\PTAM\3rdparty.old\gvars3\lib;..\PTAM\3rdparty.old\libcvd\lib;..\PTAM\3rdparty.old\libcvd\Pre-built.2\lib\x64;..\PTAM\3rdparty.old\freeglut\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcvd.lib;gvars3.lib;glew32.lib;freeglut.lib;opengl32.lib;blas_win64_MT.lib;lapack_win64_MT.lib;pthreadVC2.lib;opencv_calib3d2411.lib;opencv_core2411.lib;opencv_features2d2411.lib;opencv_flann2411.lib;opencv_highgui2411.lib;opencv_imgproc2411.lib;opencv_ml2411.lib;opencv_objdetect2411.lib;opencv_photo2411.lib;opencv_stitching2411.lib;opencv_superres2411.lib;opencv_ts2411.lib;opencv_video2411.lib;opencv_videostab2411.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

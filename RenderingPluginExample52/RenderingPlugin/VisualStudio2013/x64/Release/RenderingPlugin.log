@@ -1,0 +1,470 @@
+﻿Build started 2/15/2017 5:13:14 PM.
+     1>Project "E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\RenderingPlugin.vcxproj" on node 2 (Build target(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\fxc.exe /nologo /E"PS" /T ps_4_0_level_9_3 /Fo "E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\SimplePixelShader.cso" ..\Shaders\SimplePixelShader.hlsl 
+         compilation object save succeeded; see E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\SimplePixelShader.cso
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\fxc.exe /nologo /E"VS" /T vs_4_0_level_9_3 /Fo "E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\SimpleVertexShader.cso" ..\Shaders\SimpleVertexShader.hlsl 
+         compilation object save succeeded; see E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\SimpleVertexShader.cso
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IE:\opencv2_4_11\my_build_vs2013_x64\install\include /IE:\opencv2411\opencv\mybuild_VC11_64\install\include /I..\PTAM\PTAM /I..\PTAM\3rdparty.old /I..\PTAM\3rdparty.old\headers /I"..\PTAM\3rdparty.old\glew-1.12.0\include" /I..\PTAM\3rdparty.old\libcvd /I"..\PTAM\3rdparty.old\libcvd\Pre-built.2\include" /I..\PTAM\3rdparty.old\gvars3 /I..\PTAM\3rdparty.old\freeglut\include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D RENDERINGPLUGIN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt ..\PTAM\PTAM\ARDriver.cc ..\PTAM\PTAM\ATANCamera.cc ..\PTAM\PTAM\Bundle.cc ..\PTAM\PTAM\CalibCornerPatch.cc ..\PTAM\PTAM\CalibImage.cc ..\PTAM\PTAM\cameraparameters.cpp ..\PTAM\PTAM\EyeGame.cc ..\PTAM\PTAM\GLWindow2.cc ..\PTAM\PTAM\GLWindowMenu.cc ..\PTAM\PTAM\HomographyInit.cc ..\PTAM\PTAM\KeyFrame.cc ..\PTAM\PTAM\Map.cc ..\PTAM\PTAM\MapMaker.cc ..\PTAM\PTAM\MapPoint.cc ..\PTAM\PTAM\MapViewer.cc ..\PTAM\PTAM\MiniPatch.cc ..\PTAM\PTAM\PatchFinder.cc ..\PTAM\PTAM\PTAM_AR_dll.cc ..\PTAM\PTAM\Relocaliser.cc ..\PTAM\PTAM\ShiTomasi.cc ..\PTAM\PTAM\SmallBlurryImage.cc ..\PTAM\PTAM\Tracker.cc ..\RenderingPlugin.cpp ..\SLAM_AR.cpp ..\VideoCap.cpp
+         ARDriver.cc
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\EyeGame.h(35) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>..\PTAM\PTAM\ARDriver.cc(519): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         ATANCamera.cc
+         Bundle.cc
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\Bundle.h(41) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>..\PTAM\PTAM\Bundle.cc(48): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\PTAM\PTAM\Bundle.cc(68): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\PTAM\PTAM\Bundle.cc(434): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+                 ..\PTAM\PTAM\Bundle.cc(138) : see reference to function template instantiation 'bool Bundle::Do_LM_Step<Cauchy>(bool *)' being compiled
+         CalibCornerPatch.cc
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>..\PTAM\PTAM\CalibCornerPatch.cc(192): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\PTAM\PTAM\CalibCornerPatch.cc(193): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\libcvd\cvd/image_interpolate.h(186): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\libcvd\cvd/image_interpolate.h(172) : while compiling class template member function 'float CVD::image_interpolate<I,C>::operator [](const TooN::Vector<Size> &)'
+                 with
+                 [
+                     I=CVD::Interpolate::Bilinear,
+                     C=CVD::byte,
+                     Size=2
+                 ]
+                 ..\PTAM\PTAM\CalibCornerPatch.cc(153) : see reference to function template instantiation 'float CVD::image_interpolate<I,C>::operator [](const TooN::Vector<Size> &)' being compiled
+                 with
+                 [
+                     I=CVD::Interpolate::Bilinear,
+                     C=CVD::byte,
+                     Size=2
+                 ]
+                 ..\PTAM\PTAM\CalibCornerPatch.cc(141) : see reference to class template instantiation 'CVD::image_interpolate<I,C>' being compiled
+                 with
+                 [
+                     I=CVD::Interpolate::Bilinear,
+                     C=CVD::byte
+                 ]
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\libcvd\cvd/image_interpolate.h(189): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\libcvd\cvd/image_interpolate.h(192): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\libcvd\cvd/image_interpolate.h(195): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         CalibImage.cc
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\CalibImage.h(39) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>..\PTAM\PTAM\CalibImage.cc(245): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\PTAM\PTAM\CalibImage.cc(405): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\PTAM\PTAM\CalibImage.cc(502): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\libcvd\cvd/image_interpolate.h(186): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\libcvd\cvd/image_interpolate.h(172) : while compiling class template member function 'float CVD::image_interpolate<I,C>::operator [](const TooN::Vector<Size> &)'
+                 with
+                 [
+                     I=CVD::Interpolate::Bilinear,
+                     C=CVD::byte,
+                     Size=2
+                 ]
+                 ..\PTAM\PTAM\CalibImage.cc(91) : see reference to function template instantiation 'float CVD::image_interpolate<I,C>::operator [](const TooN::Vector<Size> &)' being compiled
+                 with
+                 [
+                     I=CVD::Interpolate::Bilinear,
+                     C=CVD::byte,
+                     Size=2
+                 ]
+                 ..\PTAM\PTAM\CalibImage.cc(77) : see reference to class template instantiation 'CVD::image_interpolate<I,C>' being compiled
+                 with
+                 [
+                     I=CVD::Interpolate::Bilinear,
+                     C=CVD::byte
+                 ]
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\libcvd\cvd/image_interpolate.h(189): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\libcvd\cvd/image_interpolate.h(192): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\libcvd\cvd/image_interpolate.h(195): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         cameraparameters.cpp
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\cameraparameters.h(64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\cameraparameters.h(70): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\cameraparameters.h(85): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\cameraparameters.h(88): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\cameraparameters.h(92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\cameraparameters.h(99): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\cameraparameters.h(103): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\cameraparameters.h(120): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\cameraparameters.h(132): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\cameraparameters.h(142): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\cameraparameters.h(143): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\PTAM\PTAM\cameraparameters.cpp(47): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\PTAM\PTAM\cameraparameters.cpp(80): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\PTAM\PTAM\cameraparameters.cpp(123): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\PTAM\PTAM\cameraparameters.cpp(146): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\PTAM\PTAM\cameraparameters.cpp(147): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\PTAM\PTAM\cameraparameters.cpp(153): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\PTAM\PTAM\cameraparameters.cpp(182): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\PTAM\PTAM\cameraparameters.cpp(202): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\PTAM\PTAM\cameraparameters.cpp(239): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\PTAM\PTAM\cameraparameters.cpp(290): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\PTAM\PTAM\cameraparameters.cpp(341): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\PTAM\PTAM\cameraparameters.cpp(411): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>..\PTAM\PTAM\cameraparameters.cpp(492): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+         EyeGame.cc
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\EyeGame.h(35) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>..\PTAM\PTAM\EyeGame.cc(142): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(143): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(145): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(146): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(166): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(167): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(168): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(169): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(171): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(172): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(173): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(174): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(187): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(188): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(190): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\EyeGame.cc(191): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         GLWindow2.cc
+     1>..\PTAM\PTAM\GLWindow2.cc(133): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\GLWindow2.cc(162): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>..\PTAM\PTAM\GLWindow2.cc(194): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         GLWindowMenu.cc
+     1>..\PTAM\PTAM\GLWindowMenu.cc(179): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         HomographyInit.cc
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\HomographyInit.h(39) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>..\PTAM\PTAM\HomographyInit.cc(65): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         KeyFrame.cc
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+         Map.cc
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapPoint.h(22): warning C4099: 'KeyFrame' : type name first seen using 'struct' now seen using 'class'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\Map.h(22) : see declaration of 'KeyFrame'
+     1>..\PTAM\PTAM\Map.cc(22): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         MapMaker.cc
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(29): warning C4099: 'MapPoint' : type name first seen using 'struct' now seen using 'class'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\Map.h(21) : see declaration of 'MapPoint'
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapMaker.h(35): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapMaker.h(58): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapPoint.h(22): warning C4099: 'KeyFrame' : type name first seen using 'struct' now seen using 'class'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(76) : see declaration of 'KeyFrame'
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapPoint.h(24): warning C4099: 'MapMakerData' : type name first seen using 'struct' now seen using 'class'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapMaker.h(31) : see declaration of 'MapMakerData'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>..\PTAM\PTAM\MapMaker.cc(668): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\PTAM\PTAM\MapMaker.cc(1051): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         MapPoint.cc
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(29): warning C4099: 'MapPoint' : type name first seen using 'struct' now seen using 'class'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapPoint.h(27) : see declaration of 'MapPoint'
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(76): warning C4099: 'KeyFrame' : type name first seen using 'class' now seen using 'struct'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapPoint.h(22) : see declaration of 'KeyFrame'
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+         MapViewer.cc
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapViewer.h(21): warning C4099: 'Map' : type name first seen using 'struct' now seen using 'class'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\Map.h(25) : see declaration of 'Map'
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapViewer.h(41) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapPoint.h(22): warning C4099: 'KeyFrame' : type name first seen using 'struct' now seen using 'class'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\Map.h(22) : see declaration of 'KeyFrame'
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(29): warning C4099: 'MapPoint' : type name first seen using 'struct' now seen using 'class'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapPoint.h(27) : see declaration of 'MapPoint'
+     1>..\PTAM\PTAM\MapViewer.cc(65): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>..\PTAM\PTAM\MapViewer.cc(74): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         MiniPatch.cc
+         PatchFinder.cc
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(29): warning C4099: 'MapPoint' : type name first seen using 'struct' now seen using 'class'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapPoint.h(27) : see declaration of 'MapPoint'
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(76): warning C4099: 'KeyFrame' : type name first seen using 'class' now seen using 'struct'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapPoint.h(22) : see declaration of 'KeyFrame'
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>..\PTAM\PTAM\PatchFinder.cc(265): warning C4244: '=' : conversion from 'TooN::DefaultPrecision' to 'float', possible loss of data
+     1>..\PTAM\PTAM\PatchFinder.cc(266): warning C4244: '=' : conversion from 'TooN::DefaultPrecision' to 'float', possible loss of data
+     1>..\PTAM\PTAM\PatchFinder.cc(329): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\PTAM\PTAM\PatchFinder.cc(330): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\PTAM\PTAM\PatchFinder.cc(331): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\PTAM\PTAM\PatchFinder.cc(332): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\PTAM\PTAM\PatchFinder.cc(335): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned long', possible loss of data
+         PTAM_AR_dll.cc
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\Map.h(25): warning C4099: 'Map' : type name first seen using 'class' now seen using 'struct'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\PTAM_AR_dll.h(18) : see declaration of 'Map'
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(29): warning C4099: 'MapPoint' : type name first seen using 'struct' now seen using 'class'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\Map.h(21) : see declaration of 'MapPoint'
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapMaker.h(35): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapMaker.h(58): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so2.h(51): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se2.h(136) : see reference to class template instantiation 'TooN::SO2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\Relocaliser.h(33) : see reference to class template instantiation 'TooN::SE2<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so2.h(52): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+         Relocaliser.cc
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\Map.h(21): warning C4099: 'MapPoint' : type name first seen using 'class' now seen using 'struct'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(29) : see declaration of 'MapPoint'
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so2.h(51): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se2.h(136) : see reference to class template instantiation 'TooN::SO2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\Relocaliser.h(33) : see reference to class template instantiation 'TooN::SE2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so2.h(52): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+         ShiTomasi.cc
+         Compiling...
+         SmallBlurryImage.cc
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so2.h(51): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se2.h(136) : see reference to class template instantiation 'TooN::SO2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\utility(201) : see reference to class template instantiation 'TooN::SE2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 ..\PTAM\PTAM\SmallBlurryImage.cc(99) : see reference to class template instantiation 'std::pair<_Ty1,_Ty2>' being compiled
+                 with
+                 [
+                     _Ty1=TooN::SE2<double>,
+                     _Ty2=double
+                 ]
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so2.h(52): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+         Tracker.cc
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(29): warning C4099: 'MapPoint' : type name first seen using 'struct' now seen using 'class'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\Map.h(21) : see declaration of 'MapPoint'
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(54): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se3.h(153) : see reference to class template instantiation 'TooN::SO3<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(81) : see reference to class template instantiation 'TooN::SE3<>' being compiled
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so3.h(55): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapMaker.h(35): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapMaker.h(58): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\math.h(638): warning C4005: 'M_SQRT1_2' : macro redefinition
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/helpers.h(40) : see previous definition of 'M_SQRT1_2'
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so2.h(51): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+                 E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/se2.h(136) : see reference to class template instantiation 'TooN::SO2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\Relocaliser.h(33) : see reference to class template instantiation 'TooN::SE2<Precision>' being compiled
+                 with
+                 [
+                     Precision=double
+                 ]
+     1>E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\PTAM\3rdparty.old\TooN/so2.h(52): warning C4396: 'TooN::operator >>' : the inline specifier cannot be used when a friend declaration refers to a specialization of a function template
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapPoint.h(22): warning C4099: 'KeyFrame' : type name first seen using 'struct' now seen using 'class'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\KeyFrame.h(76) : see declaration of 'KeyFrame'
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapPoint.h(24): warning C4099: 'MapMakerData' : type name first seen using 'struct' now seen using 'class'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\MapMaker.h(31) : see declaration of 'MapMakerData'
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\TrackerData.h(17): warning C4099: 'TrackerData' : type name first seen using 'class' now seen using 'struct'
+                 e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\Tracker.h(35) : see declaration of 'TrackerData'
+     1>..\PTAM\PTAM\Tracker.cc(109): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\PTAM\PTAM\Tracker.cc(224): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\PTAM\PTAM\Tracker.cc(493): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>..\PTAM\PTAM\Tracker.cc(495): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>..\PTAM\PTAM\Tracker.cc(851): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>..\PTAM\PTAM\Tracker.cc(922): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         RenderingPlugin.cpp
+         SLAM_AR.cpp
+         VideoCap.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\RenderingPlugin.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\opencv2_4_11\my_build_vs2013_x64\install\x64\vc12\lib /LIBPATH:E:\opencv2411\opencv\mybuild_VC11_64\install\x64\vc11\lib /LIBPATH:..\PTAM\3rdparty.old\LAPACK_Release_x64 /LIBPATH:"..\PTAM\3rdparty.old\glew-1.12.0\lib\Release\x64" /LIBPATH:..\PTAM\3rdparty.old\gvars3\lib /LIBPATH:..\PTAM\3rdparty.old\libcvd\lib /LIBPATH:"..\PTAM\3rdparty.old\libcvd\Pre-built.2\lib\x64" /LIBPATH:..\PTAM\3rdparty.old\freeglut\lib\x64 opengl32.lib opencv_calib3d2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_ml2411.lib opencv_objdetect2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib libcvd.lib gvars3.lib glew32.lib freeglut.lib opengl32.lib blas_win64_MT.lib lapack_win64_MT.lib pthreadVC2.lib opencv_calib3d2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_ml2411.lib opencv_objdetect2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"..\RenderingPlugin.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\RenderingPlugin.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\RenderingPlugin.lib" /MACHINE:X64 /DLL x64\Release\ARDriver.obj
+         x64\Release\ATANCamera.obj
+         x64\Release\Bundle.obj
+         x64\Release\CalibCornerPatch.obj
+         x64\Release\CalibImage.obj
+         x64\Release\cameraparameters.obj
+         x64\Release\EyeGame.obj
+         x64\Release\GLWindow2.obj
+         x64\Release\GLWindowMenu.obj
+         x64\Release\HomographyInit.obj
+         x64\Release\KeyFrame.obj
+         x64\Release\Map.obj
+         x64\Release\MapMaker.obj
+         x64\Release\MapPoint.obj
+         x64\Release\MapViewer.obj
+         x64\Release\MiniPatch.obj
+         x64\Release\PatchFinder.obj
+         x64\Release\PTAM_AR_dll.obj
+         x64\Release\Relocaliser.obj
+         x64\Release\ShiTomasi.obj
+         x64\Release\SmallBlurryImage.obj
+         x64\Release\Tracker.obj
+         x64\Release\RenderingPlugin.obj
+         x64\Release\SLAM_AR.obj
+         x64\Release\VideoCap.obj
+     1>RenderingPlugin.obj : warning LNK4197: export 'GetRenderEventFunc' specified multiple times; using first specification
+     1>RenderingPlugin.obj : warning LNK4197: export 'UnityPluginUnload' specified multiple times; using first specification
+     1>RenderingPlugin.obj : warning LNK4197: export 'UnityPluginLoad' specified multiple times; using first specification
+     1>RenderingPlugin.obj : warning LNK4197: export 'SetUnityStreamingAssetsPath' specified multiple times; using first specification
+     1>RenderingPlugin.obj : warning LNK4197: export 'SetTextureFromUnity' specified multiple times; using first specification
+     1>RenderingPlugin.obj : warning LNK4197: export 'SetTimeFromUnity' specified multiple times; using first specification
+            Creating library E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\RenderingPlugin.lib and object E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\RenderingPlugin.exp
+         Generating code
+     1>e:\ptam_unity\trunk\renderingpluginexample52\renderingplugin\ptam\ptam\ptam_ar_dll.cc(248): warning C4715: 'PTAM_AR::get_tracking_quality' : not all control paths return a value
+         Finished generating code
+     1>libcvd.lib(convolve_gaussian.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvd.lib(win32.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvd.lib(fast_corner.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvd.lib(utility_float.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvd.lib(gltext.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvd.lib(glwindow.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvd.lib(half_sample.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvd.lib(faster_corner_10.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvd.lib(thread.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvd.lib(cvd_timer.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvd.lib(convolution.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvd.lib(nonmax_suppression.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libcvd.lib(fast_10_detect.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3.lib(gvars3.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3.lib(serialize.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3.lib(inst.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3.lib(gvars2.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3.lib(GUI.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3.lib(GStringUtil.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3.lib(GUI_impl_noreadline.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>gvars3.lib(GUI_non_readline.obj) : warning LNK4204: 'E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         RenderingPlugin.vcxproj -> E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\RenderingPlugin.dll
+       PostBuildEvent:
+         SETLOCAL
+         
+         if "x64" == "x86" (
+           set TARGET_PLUGIN_PATH=E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\..\..\UnityProject\Assets\Plugins\x86
+         ) else (
+           set TARGET_PLUGIN_PATH=E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\..\..\UnityProject\Assets\Plugins\x86_64
+         )
+         
+         set TARGET_SHADER_PATH=E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\..\..\UnityProject\Assets\StreamingAssets\Shaders\DX11_9_1\
+         
+         echo Target Plugin Path is %TARGET_PLUGIN_PATH%
+         echo Target Shader Path is %TARGET_SHADER_PATH%
+         
+         copy /Y "E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\RenderingPlugin.dll" "%TARGET_PLUGIN_PATH%\RenderingPlugin.dll"
+         copy /Y "E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\SimpleVertexShader.cso" "%TARGET_SHADER_PATH%SimpleVertexShader.cso"
+         copy /Y "E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\SimplePixelShader.cso" "%TARGET_SHADER_PATH%SimplePixelShader.cso"
+         
+         
+         ENDLOCAL
+         
+         :VCEnd
+         Target Plugin Path is E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\..\..\UnityProject\Assets\Plugins\x86_64
+         Target Shader Path is E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\..\..\UnityProject\Assets\StreamingAssets\Shaders\DX11_9_1\
+         已复制         1 个文件。
+         已复制         1 个文件。
+         已复制         1 个文件。
+     1>Done Building Project "E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\RenderingPlugin.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.06

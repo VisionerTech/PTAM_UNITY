@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <LibraryPath>E:\opencv2411\opencv\mybuild_VC11_64\install\x64\vc11\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>E:\opencv2411\opencv\mybuild_VC11_64\install\x64\vc11\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>E:\opencv2411\opencv\mybuild_VC11_64\install\include;E:\opencv2411\opencv\mybuild_VC11_64\install\include\opencv;E:\opencv2411\opencv\mybuild_VC11_64\install\include\opencv2;$(IncludePath)</IncludePath>
+    <SourcePath>E:\opencv2411\opencv\sources\modules;E:\opencv2411\opencv\sources\modules\calib3d;E:\opencv2411\opencv\sources\modules\core;E:\opencv2411\opencv\sources\modules\features2d;E:\opencv2411\opencv\sources\modules\flann;E:\opencv2411\opencv\sources\modules\hal;E:\opencv2411\opencv\sources\modules\highgui;E:\opencv2411\opencv\sources\modules\imgproc;E:\opencv2411\opencv\sources\modules\objdetect;E:\opencv2411\opencv\sources\modules\;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\opencv2411\opencv\mybuild_VC11_64\install\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>E:\opencv2411\opencv\mybuild_VC11_64\install\x64\vc11\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_calib3d2411d.lib;opencv_core2411d.lib;opencv_features2d2411d.lib;opencv_flann2411d.lib;opencv_highgui2411d.lib;opencv_imgproc2411d.lib;opencv_ml2411d.lib;opencv_objdetect2411d.lib;opencv_photo2411d.lib;opencv_stitching2411d.lib;opencv_superres2411d.lib;opencv_ts2411d.lib;opencv_video2411d.lib;opencv_videostab2411d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
