@@ -9,7 +9,7 @@ this is the PTAM stereo visual studio project for VisionerTech VMG-PROV. It is u
 
 ## Installation
 
-1.  Download and install the  Visual Studio 2012, the download address is here: https://www.microsoft.com/zh-cn/download/details.aspx?id=30682
+1.  Download and install  Visual Studio 2012, the download address is here: https://www.microsoft.com/zh-cn/download/details.aspx?id=30682
 
 2.  Download and install OpenCV(version 2.4.X) as:
 http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_install/windows_install.html
