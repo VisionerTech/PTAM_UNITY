@@ -1,6 +1,6 @@
 ## PTAM in UNITY
 
-this is the PTAM stereo visual studio project for VisionerTech VMG-PROV. It is used to sense the environment and localize the headset.
+This is a project in which PTAM dll worked together with Unity for VisionerTech VMG-PROV. It localizes the headset automatically by PTAM. Also more content could be created with Unity.
 
 ## Requirement:
 
