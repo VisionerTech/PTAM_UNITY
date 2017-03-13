@@ -23,7 +23,7 @@ http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_visual_studio_O
 2.  Put camera parameters got from stereo_calib or stereo_calib_executable to "/UnityProject/save_param/"
 3.  As in stereo_seethrough, use Unity open "/UnityProject/" folder. The StereoCamera object is made of two cameras. Every camera has its own plane object, which images got from real VMG PROV camera are rendered on. Connect UseRenderingPlugin.cs and UseRenderingPlugin_right.cs scripts with left plane and right plane. Then a ball as an AR object are shown in foreground.
 ![alt text](https://github.com/VisionerTech/PTAM_UNITY/blob/master/readme_image/unity.png "unity")
-4. Put the cameras towards a plane target. Then double click "scene" and  click run afterwards.
+4. Put the cameras towards a plane target. Then double click "scene", click run and then click "start" afterwards.
 ![alt text](https://github.com/VisionerTech/PTAM_UNITY/blob/master/readme_image/plane.png "plane")
 5.  If the left image and right image are swop——left plane showing the right camera image and right plane showing the left camera image, we should change UseRenderingPlugin.cs script from:
 
