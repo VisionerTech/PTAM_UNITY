@@ -17,6 +17,7 @@ http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_install/windows
 3.  Open "PTAM_UNITY/RenderingPlugin/VisualStudio2013/RenderingPlugin.sln", then change settings for visual studio project linked with OpenCV:
 http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_visual_studio_Opencv/windows_visual_studio_Opencv.html
 
+4.  Download and install Unity(5.4.0f3), the download address is here: https://unity3d.com/unity
 ## How to Run
 
 1.  Build "/RenderingPlugin/VisualStudio2013/RenderingPlugin.sln" release version, RenderingPlugin.dll will copy to corresponding unity folder automatically.
