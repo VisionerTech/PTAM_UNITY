@@ -28,7 +28,7 @@ http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_visual_studio_O
 ![alt text](https://github.com/VisionerTech/PTAM_UNITY/blob/master/readme_image/plane.png "plane")
 5.  If the left image and right image are swop——left plane showing the right camera image and right plane showing the left camera image, we should change UseRenderingPlugin.cs script from:
 
-          private static extern Boolean OpenWebCam(int index_0, int index_1);      
+         if (OpenWebCam (1, 0) && init_SLAM_AR()) {     
 to:
 
-          private static extern Boolean OpenWebCam(int index_1, int index_o);
+         if (OpenWebCam (0, 1) && init_SLAM_AR()) {
