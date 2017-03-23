@@ -31,4 +31,4 @@ http://docs.opencv.org/2.4.11/doc/tutorials/introduction/windows_visual_studio_O
          if (OpenWebCam (1, 0) && init_SLAM_AR()) {     
 to:
 
-         if (OpenWebCam (0, 1) && init_SLAM_AR()) {
+         if (OpenWebCam (0, 1) && init_SLAM_AR()) {
