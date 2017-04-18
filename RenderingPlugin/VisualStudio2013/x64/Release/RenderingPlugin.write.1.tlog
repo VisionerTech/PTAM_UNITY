@@ -1,9 +1,0 @@
-^..\Shaders\SimplePixelShader.hlsl
-^..\Shaders\SimpleVertexShader.hlsl
-E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\SimplePixelShader.cso
-E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\SimpleVertexShader.cso
-^E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\RenderingPlugin.vcxproj
-E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\RenderingPlugin.lib
-E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\RenderingPlugin.lib
-E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\RenderingPlugin.exp
-E:\PTAM_UNITY\trunk\RenderingPluginExample52\RenderingPlugin\VisualStudio2013\x64\Release\RenderingPlugin.exp
